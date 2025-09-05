@@ -26,7 +26,7 @@ export function transformModels(models: OpenRouterModel[]): Model[] {
       context_length: model.context_length,
       input_modalities: model.input_modalities,
       output_modalities: model.output_modalities,
-      provider_name: model.endpoint.provider_name,
+      provider_name: model.endpoint.provider_info.displayName,
       provider_display_name: model.endpoint.provider_display_name,
       quantization: model.endpoint.quantization,
       supports_reasoning: model.endpoint.supports_reasoning,

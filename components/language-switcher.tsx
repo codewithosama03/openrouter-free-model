@@ -9,7 +9,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { Globe } from 'lucide-react';
+import { Languages } from 'lucide-react';
 
 export function LanguageSwitcher() {
   const router = useRouter();
@@ -32,7 +32,7 @@ export function LanguageSwitcher() {
             onClick={toggleLanguage}
             className="flex items-center justify-center gap-2 px-3"
           >
-            <Globe className="h-5 w-5" />
+            <Languages className="h-5 w-5" />
             <span className="font-medium">{locale.toUpperCase()}</span>
             <span className="sr-only">{t('tooltip')}</span>
           </Button>
